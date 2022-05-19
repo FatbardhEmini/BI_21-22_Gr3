@@ -39,7 +39,13 @@ class Blog {
                 "excerpt" => "Appalicious covers a wide range of math topics, so we can be your study buddy from second grade to senior year...",
                 "tags" => "fun,creative,experience",
                 "published" => true,
-                "created_at" => date("Y/m/d"),
+                "thumbnail" => "https://images.unsplash.com/photo-1648737155328-0c0012cf2f20?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170",
+            ],
+            [
+                "title" => "Number 2",
+                "excerpt" => "Appalicious covers a wide range of math topics, so we can be your study buddy from second grade to senior year...",
+                "tags" => "fun,creative,experience",
+                "published" => true,
                 "thumbnail" => "https://images.unsplash.com/photo-1648737155328-0c0012cf2f20?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170",
             ]
         ];
