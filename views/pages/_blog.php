@@ -11,8 +11,9 @@
                         <div 
                             class="post-img"
                             style="background-image: url(<?= $blog["thumbnail"] ?>)"></div>
-                        <h3><?= $blog["title"] ?></h3>
-                        <p><?= $blog["excerpt"] ?></p>
+                        <h3><?= str_replace("2", "two", $blog["title"])
+                         ?></h3>
+                        <p><?= strlen($blog["excerpt"]) > 50 ? substr($blog["excerpt"], 0, 50) . "..." : $blog["excerpt"] ?></p>
                         <div class="tags">
                             <?php
                                 $tags = explode(",", $blog["tags"]);
@@ -21,6 +22,10 @@
                                 }
                             ?>
                         </div>
+                        <p style="margin-top: 15px">Date: <?php 
+                            $dateSplitted = preg_split("/([-\s:])/", $blog["created_at"], -1, PREG_SPLIT_DELIM_CAPTURE);
+                            echo $dateSplitted[4] . "," . $dateSplitted[2] . "," . $dateSplitted[0];
+                        ?></p>
                     </div>
                     <?php
                 }

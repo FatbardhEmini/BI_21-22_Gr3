@@ -1,4 +1,5 @@
 <?php
+require "file.php";
 
 $name = $email = $message = "";
 $errors = [];
@@ -17,10 +18,14 @@ if (isset($_POST['submit'])) {
     }
 
     $mailTo = 'ragipgjinovci@gmail.com';
-    $headers = 'From: ' . $mailFrom;
+    $headers = 'From: ' . $email;
     $txt = "You have an email from: " . $name . ".\n\n" . $message;
 
     mail($mailTo, "New contact from Appalicious", $txt, $headers);
+
+    $messagesFileController = new File("messages", "messages.txt");
+    $messagesFileController->write("Name: " . $name . ";Email: " . $email . ";Message: " . $message . "\nendofline");
+
     header("Location: ../message.php");
 }
 

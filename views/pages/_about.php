@@ -20,12 +20,12 @@
                 </p>
             </div>
             <div class="about_img">
-                <img width="100%" height="100%" src="assets/illustrations/history.svg" alt="Company History" />
+                <img width="100%" height="100%" src="/public/assets/illustrations/history.svg" alt="Company History" />
             </div>
         </div>
         <div class="about_section">
             <div class="about_img">
-                <img width="100%" height="100%" src="assets/illustrations/statistics.svg" alt="map" />
+                <img width="100%" height="100%" src="/public/assets/illustrations/statistics.svg" alt="map" />
             </div>
             <div class="info">
                 <h2 class="title">Statistics</h2>
@@ -57,7 +57,7 @@
             <div class="newsletter-input">
                 <input type="email" placeholder="Please enter your email" />
                 <button type="submit">
-                    <img src="assets/icons/paper-plane.svg" alt="Paper plane icon" />
+                    <img src="/public/assets/icons/paper-plane.svg" alt="Paper plane icon" />
                 </button>
                 <h6 class="error"></h6>
             </div>

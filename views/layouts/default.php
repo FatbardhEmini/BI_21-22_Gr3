@@ -11,7 +11,7 @@
     <!-- Header -->
     <?php include('views/partials/header.php') ?>
     <!-- Content -->
-    <?php include($child) ?>
+    <?php if(isset($child)) include($child) ?>
     <!-- Footer -->
     <?php include('views/partials/footer.php') ?>
     <!-- Scripts -->

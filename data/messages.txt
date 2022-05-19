@@ -1,0 +1,4 @@
+Name: Asdasd;Email: asdas@asdasd.com;Message: asdasd
+endoflineName: Asdasd;Email: asdas@asd.com;Message: asdasd
+endoflineName: Ragipi;Email: ragip@gjinovci.com;Message: Hello from Ragip
+endofline
