@@ -1,0 +1,17 @@
+/**
+ * @author Ragip Gjinovci, Fatbardh Emini
+ * @version 1.0
+ * 
+ * main.css
+ * 
+ * This file will be loaded throughout the entire app. It contains all the stylesheets and
+ * bundles them all together.
+ */
+
+@import "utils/reset.css";
+@import "utils/fonts.css";
+@import "variables/fonts.css";
+@import "variables/colors.css";
+@import "utils/general.css";
+@import "sections/index.css";
+@import "sections/contact.css";

@@ -1,0 +1,85 @@
+.about {
+    padding-top: 3.75rem;
+    padding-bottom: 4.375rem;
+    background-color: var(--bg);
+    color: #fff;
+    color: var(--text-100);
+}
+
+.about_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+.about_section:last-child {
+    margin-bottom: 5rem;
+}
+
+.about_section .info {
+    width: 60%;
+}
+
+.about_section .info:nth-child(odd) {
+    padding-right: 5rem;
+}
+
+.about_section .info:nth-child(even) {
+    padding-left: 5rem;
+}
+
+.about_section .info h2 {
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+}
+
+.about_section .info p {
+    font-size: 1rem;
+    line-height: 1.5em;
+}
+
+.about_section .info .info-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about_section .info .info-details .info-item {
+    
+    align-self: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.about_section .info .info-details .info-item::before {
+    content: "";
+    width: 30%;
+    height: 5px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: var(--primary);
+    top: -5px;
+    left: 0;
+}
+
+.about_section .info .info-details .info-item h3 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    color: var(--text-400);
+    font-style: italic;
+}
+
+.about_section .info .info-details .info-item p {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5em;
+}
+
+.about_section .about_img {
+    width: 60%;
+}

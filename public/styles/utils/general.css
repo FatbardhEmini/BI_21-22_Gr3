@@ -1,0 +1,30 @@
+/**
+ * @author Ragip Gjinovci, Fatbardh Emini
+ * @version 1.0
+ * 
+ * general.css
+ *
+ * This stylesheet will contain general styles(these styles are valid throughout the app and 
+ * may be used for all the occurrences of these elements).
+ */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--georgia);
+}
+
+.container {
+    max-width: 62.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.error {
+    position: absolute;
+    bottom: 0px;
+}

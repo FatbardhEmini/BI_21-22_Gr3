@@ -1,0 +1,141 @@
+footer {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--bg-dark)), to(var(--bg-light)));
+  background-image: -o-linear-gradient(top, var(--bg-dark), var(--bg-light));
+  background-image: linear-gradient(to bottom, var(--bg-dark), var(--bg-light));
+  color: var(--text-200);
+}
+
+.footer-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-top: 2.5rem;
+  padding-bottom: 1.875rem;
+}
+
+.footer-item {
+  width: 25%;
+  margin: 0 15px;
+}
+
+.footer-item:first-child {
+  margin-left: 0;
+}
+
+.footer-item:last-child {
+  margin-right: 0;
+}
+
+.footer-item h2 {
+  font-size: 1.625rem;
+  font-style: italic;
+  margin-bottom: 1.5625rem;
+}
+
+.footer-item p {
+  font-size: 0.75rem;
+  color: var(--text-700);
+  line-height: 1.8em;
+}
+
+.contact-us-form{
+  position: relative;
+}
+
+.footer-item form input,
+.footer-item form textarea {
+  background-color: #000;
+  font-size: 0.75rem;
+  color: var(--text-100);
+  line-height: 1.2em;
+  padding: 0.75rem;
+  width: 100%;
+  margin-bottom: 0.75rem;
+}
+
+.footer-item form input::-webkit-input-placeholder, .footer-item form textarea::-webkit-input-placeholder {
+  font-size: 0.75rem;
+  color: var(--text-600);
+  line-height: 1.2em;
+}
+
+.footer-item form input::-moz-placeholder, .footer-item form textarea::-moz-placeholder {
+  font-size: 0.75rem;
+  color: var(--text-600);
+  line-height: 1.2em;
+}
+
+.footer-item form input:-ms-input-placeholder, .footer-item form textarea:-ms-input-placeholder {
+  font-size: 0.75rem;
+  color: var(--text-600);
+  line-height: 1.2em;
+}
+
+.footer-item form input::-ms-input-placeholder, .footer-item form textarea::-ms-input-placeholder {
+  font-size: 0.75rem;
+  color: var(--text-600);
+  line-height: 1.2em;
+}
+
+.footer-item form input::placeholder,
+.footer-item form textarea::placeholder {
+  font-size: 0.75rem;
+  color: var(--text-600);
+  line-height: 1.2em;
+}
+.footer-item form textarea {
+  min-height: 5rem;
+  resize: none;
+}
+
+.footer-item form button {
+  font-size: 0.75rem;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  padding: 0.625rem 0.8125rem;
+  background-color: #000;
+  float: right;
+  -webkit-transition: background .5s ease;
+  -o-transition: background .5s ease;
+  transition: background .5s ease;
+  cursor: pointer;
+}
+
+.contact-us-form .error{
+  bottom: -40px;
+  color: var(--primary);
+}
+
+.footer-item form button:hover {
+  background-color: rgba(0, 0, 0, .7);
+}
+
+.copyright {
+  padding: 1.875rem 0.9375rem;
+  background-color: var(--bg-dark);
+}
+
+.copyright .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.copyright p {
+  font-size: 0.75rem;
+  color: var(--text-600);
+  line-height: 1em;
+}

@@ -1,0 +1,13 @@
+/**
+ * @author Ragip Gjinovci, Fatbardh Emini
+ * @version 1.0
+ * 
+ * fonts.css
+ *
+ * This stylesheet is used to declare all the fonts that the app uses.
+ */
+
+@font-face {
+    font-family: "Georgia";
+    src: url("../../assets/fonts/georgia.ttf") format("ttf");
+}

@@ -1,0 +1,55 @@
+.services {
+    background-color: var(--bg);   
+    padding-top: 3.75rem;
+    padding-bottom: 4.375rem;
+    color: var(--text-100);
+}
+
+.services .container>h2 {
+    font-size: 5.25rem;
+    line-height: 1;
+    margin-bottom: 1.75rem;
+    font-weight: 400;
+}
+
+.services .container>p {
+    font-size: 1rem;
+    line-height: 1.6em;
+    max-width: 40rem;
+}
+
+.services .container>p a {
+    color: var(--primary);
+}
+
+.services-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 3rem;
+}
+
+.service {
+    text-align: center;
+    padding: 2rem;
+}
+
+.service:nth-child(even) {
+    background: var(--primary);
+}
+
+.service img {
+    height: 4rem;
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.service p {
+    font-size: 1.1rem;
+    line-height: 1.5em;
+}
+
+

@@ -1,0 +1,21 @@
+/**
+ * @author Ragip Gjinovci, Fatbardh Emini
+ * @version 1.0
+ * 
+ * colors.css
+ *
+ * This stylesheet contains all the color variables that the app uses.
+ */
+
+:root {
+    --primary: #b22631;
+    --bg: #1a1a1a;
+    --bg-dark: #141414;
+    --bg-light: #353535;
+    --text-100: #ccc;
+    --text-200: #acacac;
+    --text-500: #999;
+    --text-600: #737373;
+    --text-700: #666;
+    --text-900: #4f4f4f;
+}

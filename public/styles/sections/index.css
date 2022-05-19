@@ -1,0 +1,19 @@
+/**
+ * @author Ragip Gjinovci, Fatbardh Emini
+ * @version 1.0
+ * 
+ * index.css
+ * 
+ * This file will contain all the sections
+ */
+
+@import "header.css";
+@import "features.css";
+@import "newsletter.css";
+@import "about.css";
+@import "services.css";
+@import "pricing.css";
+@import "blog.css";
+@import "post.css";
+@import "playground.css";
+@import "footer.css";

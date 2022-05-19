@@ -1,0 +1,118 @@
+.contact {
+    padding: 0 0 50px 0;
+    background-color: var(--bg);
+}
+
+.contact .primary-btn {
+    background-color: #000;
+    color: var(--primary);
+    font-size: 0.875rem;
+    line-height: 1.28em;
+    text-transform: uppercase;
+    padding: 0.625rem 1.5rem 0.625rem 1.1875rem;
+    border-radius: 10px;
+    -webkit-transition: background 0.5s ease;
+    -o-transition: background 0.5s ease;
+    transition: background 0.5s ease;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+#position {
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 2em;
+}
+
+.contact .contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.contact .contact-info .info {
+    color: #fff;
+    width: 50%;
+}
+
+.contact .contact-info .info h2 {
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.contact .contact-info .info p {
+    font-size: 1.2rem;
+    line-height: 1;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.contact .contact-info .info a {
+    font-size: 1.25rem;
+    line-height: 1;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.contact .contact-info .info address {
+    font-size: 1.25rem;
+    line-height: 1;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.contact .contact-info .info .social-media-ctn {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.contact .contact-info .info .social-media-ctn h3 {
+    font-size: 1.2rem;
+    line-height: 1;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.contact .contact-info .info .social-media {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contact .contact-info .info .social-media .social-media-item {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.contact .contact-info .info .social-media svg {
+    width: 100%;
+    height: 100%;
+}
+
+.contact .contact-info .info .social-media svg path {
+    fill: #fff;
+}
+
+.contact .contact-info .info .social-media .social-media-item:hover svg path {
+    fill: var(--primary);
+}
+
+.contact .contact-info .contact_illustration {
+    width: 50%;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+}
+
+.contact .contact-info .contact_illustration img {
+    width: 100%;
+    height: 100%;
+}
