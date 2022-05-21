@@ -7,7 +7,7 @@
                  <p>Learning math is fun again.</p>
              </div>
              <div class="header-banner">
-                 <img src="assets/images/banner.jpg" alt="Learn math" title="Learn math" />
+                 <img src="/public/assets/images/banner.jpg" alt="Learn math" title="Learn math" />
              </div>
          </div>
      </div>

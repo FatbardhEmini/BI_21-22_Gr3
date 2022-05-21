@@ -2,9 +2,9 @@
 <section class="features">
     <div class="container">
         <div class="features-display">
-            <img src="assets/images/phone-edited.png" alt="Placeholder" />
+            <img src="/public/assets/images/phone-edited.png" alt="Placeholder" />
             <a href="https://www.apple.com/app-store/">
-                <img src="assets/icons/phone.svg" alt="Phone icon" />
+                <img src="/public/assets/icons/phone.svg" alt="Phone icon" />
                 <span>Now available in the App store</span>
             </a>
         </div>
@@ -20,7 +20,7 @@
             <div class="features-list">
                 <div class="feature">
                     <div class="feature-heading">
-                        <img src="assets/images/light.png" alt="light" />
+                        <img src="/public/assets/images/light.png" alt="light" />
                         <h2>Expert-backed methodology</h2>
                     </div>
                     <p>
@@ -31,7 +31,7 @@
                 </div>
                 <div class="feature">
                     <div class="feature-heading">
-                        <img src="assets/images/presentation.png" alt="presentation" />
+                        <img src="/public/assets/images/presentation.png" alt="presentation" />
                         <h2>Process-focused explanations</h2>
                     </div>
                     <p>
@@ -42,7 +42,7 @@
                 </div>
                 <div class="feature line-up">
                     <div class="feature-heading">
-                        <img src="assets/images/clock.png" alt="clock" />
+                        <img src="/public/assets/images/clock.png" alt="clock" />
                         <h2>24/7 on-demand help</h2>
                     </div>
                     <p>
@@ -52,7 +52,7 @@
                 </div>
                 <div class="feature line-up">
                     <div class="feature-heading">
-                        <img src="assets/images/cpu.png" style="filter: invert(100%)" alt="core" />
+                        <img src="/public/assets/images/cpu.png" style="filter: invert(100%)" alt="core" />
                         <h2>Common core-aligned</h2>
                     </div>
                     <p>

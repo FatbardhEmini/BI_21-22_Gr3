@@ -1,6 +1,7 @@
 <?php 
 // Imports
 require 'config/db.php';
+require('exceptions/MyException.php');
 
 class Blog {
     private Database $db;
@@ -13,16 +14,22 @@ class Blog {
 
     public function initialize()
     {
-        $query = "CREATE TABLE IF NOT EXISTS " . $this->tableName . " (
-            id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-            title VARCHAR(30) NOT NULL,
-            excerpt TEXT NOT NULL,
-            published BOOL DEFAULT false,
-            thumbnail VARCHAR(300) NOT NULL,
-            tags VARCHAR(100) NOT NULL,
-            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-        )";
-        if(!$this->db->query($query)) printf("Error message: %s\n", $this->db->error);
+        try {
+            $query = "CREATE TABLE IF NOT EXISTS " . $this->tableName . " (
+                id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+                title VARCHAR(30) NOT NULL,
+                excerpt TEXT NOT NULL,
+                published BOOL DEFAULT false,
+                thumbnail VARCHAR(300) NOT NULL,
+                tags VARCHAR(100) NOT NULL,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+            )";
+            if(!$this->db->query($query)) {
+                throw new MyException($this->db->error);
+            };
+        } catch(MyException $err) {
+            printf("Error: message: %s\n", $err);
+        }
     }
 
     public function index() {

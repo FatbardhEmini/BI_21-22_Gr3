@@ -1,4 +1,22 @@
 /* GENERAL HEADER */
+.box {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.box form {
+    display: inline-block;
+}
+.box button {
+    background: white;
+    color: black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-left: 15px;
+    cursor: pointer;
+}
 header {
     overflow-x: hidden;
 }
