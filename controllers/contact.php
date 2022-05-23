@@ -1,6 +1,6 @@
 <?php
 require "file.php";
-require('exceptions/MyException.php');
+require('../exceptions/MyException.php');
 
 $name = $email = $message = "";
 $errors = [];
