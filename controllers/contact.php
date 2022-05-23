@@ -1,5 +1,6 @@
 <?php
 require "file.php";
+require('exceptions/MyException.php');
 
 $name = $email = $message = "";
 $errors = [];
@@ -21,7 +22,12 @@ if (isset($_POST['submit'])) {
     $headers = 'From: ' . $email;
     $txt = "You have an email from: " . $name . ".\n\n" . $message;
 
-    mail($mailTo, "New contact from Appalicious", $txt, $headers);
+    try{
+        mail($mailTo, "New contact from Appalicious", $txt, $headers);
+    }
+    catch(MyException $err) {
+        printf("Error: message: %s\n", $err);
+    }
 
     $messagesFileController = new File("messages", "messages.txt");
     $messagesFileController->write("Name: " . $name . ";Email: " . $email . ";Message: " . $message . "\nendofline");
